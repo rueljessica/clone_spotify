@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar__navigation .logo {
@@ -27,7 +28,6 @@ body {
     text-decoration: none;
     font-weight: 600px;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar {
@@ -72,7 +72,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -111,7 +110,6 @@ body {
 
 .section-playlist .text {
     padding-bottom: 14px;
-    font-family: "DM Sans", sans-serif;
     color: #fff;
 }
 
@@ -132,7 +130,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -144,7 +141,6 @@ body {
 
 .sidebar .cookies {
     margin: 25px 20px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar .cookies a {
@@ -169,4 +165,41 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bdefd);
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
