@@ -22,15 +22,17 @@ Reproduzir a interface da página inicial do Spotify aplicando boas práticas de
 
 ## 🔧 Como Executar
 
-Clone o repositório:
-
+1. Clone o repositório:
+```
 git clone https://github.com/rueljessica/clone_spotify.git
+```
 
-Acesse a pasta do projeto:
 
+2. Acesse a pasta do projeto:
+```
 cd imersao frontend
-
-Abra o arquivo index.html em seu navegador.
+```
+3. Abra o arquivo `index.html` em seu navegador.
 
 ## 🌟 Funcionalidades
 
