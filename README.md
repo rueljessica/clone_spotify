@@ -38,6 +38,6 @@ Abra o arquivo index.html em seu navegador.
 
 - Pesquisa de artistas com JavaScript
 
-📜 Licença
+## 📜 Licença
 
 Este projeto foi desenvolvido para fins educacionais durante a Imersão Front-End da Alura.
